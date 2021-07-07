@@ -1,0 +1,153 @@
+body {
+  text-align: center;
+  background: linear-gradient(90deg, #04a6eb, #7490eb);
+  color: #fdffff;
+}
+
+button {
+  font-size: 20px;
+  background: #ee500f;
+  color: #fdffff;
+  border: none;
+  width: 100px;
+  height: 40px;
+  /* 影 */
+  box-shadow: 2px 2px 2px #000;
+  transition: 700ms;
+}
+
+button:hover {
+  /* マウスを上に載せたら */
+  background: #ff9010;
+}
+
+button:focus {
+  /*ボタンにフォーカスしたときに*/
+  box-shadow: none;
+}
+
+input {
+  width: 50%;
+  height: 2rem;
+  border: 2px solid #3151cf;
+  border-radius: 5px;
+  min-height: 1rem;
+  /* 影 */
+  box-shadow: 2px 2px 2px #000;
+  transition: 700ms;
+}
+
+input:focus {
+  /*入力欄にフォーカスしたときに*/
+  border: 2px solid #0141ef;
+  outline: 0;
+  /* 影を消す */
+  box-shadow: none;
+  transform: translate(1px, 2px);
+}
+
+input::placeholder{
+  transition: 300ms;
+  color: #aab;
+}
+
+input:focus::placeholder{
+  /*入力欄にフォーカスしたときにplaceholderが右にアニメーションします。 */
+  transform: translateX(40px);
+   opacity: 0;
+}
+
+.header-style {
+  font-size: 50px;
+}
+
+.paragraph-border {
+  margin: 10px;
+  background: #addf5c;
+  color: #0141ef;
+  border: 2px dashed #61c150;
+  padding: 10px;
+}
+
+.result-style {
+  margin: 10px;
+  background: #fddf5c;
+  color: #0141ef;
+  border: 2px dashed #3151cf;
+  padding: 10px;
+}
+
+/* cssでアニメーションさせました。 */
+
+#cat-1 {
+  animation: cat-1 8s infinite;
+}
+
+@keyframes cat-1 {
+  0% {
+    transform: translate(-1000px, 0);
+  }
+  25% {
+    transform: translate(-500px, 100px);
+  }
+  50% {
+    transform: translate(-400px, 0);
+  }
+  70% {
+    transform: translate(0, -50px);
+  }
+  100% {
+    transform: translate(2000px, 500px);
+  }
+}
+
+#cat-2 {
+  animation: cat-2 15s infinite;
+}
+
+@keyframes cat-2 {
+  0% {
+    transform: translate(1000px, 0px);
+  }
+  10% {
+    transform: translate(500px, 0px);
+  }
+  20% {
+    transform: translate(450px, 0px);
+  }
+  30% {
+    transform: translate(400px, -100px);
+  }
+  40% {
+    transform: translate(350px, 0px);
+  }
+  50% {
+    transform: translate(300px, 0px);
+  }
+  60% {
+    transform: translate(250px, 0px);
+  }
+  70% {
+    transform: translate(200px, -100px);
+  }
+  80% {
+    transform: translate(150px, 0px);
+  }
+  90% {
+    transform: translate(100px, 0px);
+  }
+  100% {
+    transform: translate(-2000px, 0px);
+  }
+}
+
+
+
+.anspng {
+  width: 100px;
+}
+
+strong {
+  color: #008000;
+  background: #a9f800;
+}
