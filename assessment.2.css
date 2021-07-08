@@ -5,11 +5,12 @@ body {
 }
 
 button {
+  border-radius: 2px;
   font-size: 20px;
   background: #ee500f;
   color: #fdffff;
   border: none;
-  width: 100px;
+  width: 140px;
   height: 40px;
   /* 影 */
   box-shadow: 2px 2px 2px #000;
@@ -24,14 +25,16 @@ button:hover {
 button:focus {
   /*ボタンにフォーカスしたときに*/
   box-shadow: none;
+  transform: translate(1px, 2px);
 }
 
 input {
   width: 50%;
-  height: 2rem;
+  height: 2.5rem;
   border: 2px solid #3151cf;
   border-radius: 5px;
   min-height: 1rem;
+  font-size: 1.2rem;
   /* 影 */
   box-shadow: 2px 2px 2px #000;
   transition: 700ms;
