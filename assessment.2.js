@@ -67,7 +67,8 @@ const answers = [
   '<strong>{userName}</strong>のいいところは好奇心です。<br>新しいことに向かっていく<strong>{userName}</strong>の心構えが多くの人に魅力的に映ります。<br><img src="img/koukishin.png" alt="" id="" class="anspng">',
   '<strong>{userName}</strong>のいいところは気配りです。<br><strong>{userName}</strong>の配慮が多くの人を救っています。<br><img src="img/kikubari.png" alt="" id="" class="anspng">',
   '<strong>{userName}</strong>のいいところはその全てです。<br>ありのままの<strong>{userName}</strong>自身がいいところなのです。<br><img src="img/arinomama.png" alt="" id="" class="anspng">',
-  '<strong>{userName}</strong>のいいところは自制心です。<br>やばいと思ったときにしっかりと衝動を抑えられる<strong>{userName}</strong>が皆から評価されています。<br><img src="img/jiseishin.png" alt="" id="" class="anspng">'
+  '<strong>{userName}</strong>のいいところは自制心です。<br>やばいと思ったときにしっかりと衝動を抑えられる<strong>{userName}</strong>が皆から評価されています。<br><img src="img/jiseishin.png" alt="" id="" class="anspng">',
+  '<strong>{userName}<strong>のいいところは優しさです。<br><strong>{userName}</strong>の優しい雰囲気や立ち振る舞いに多くの人が癒やされています。<br>画像'
 ];
 
 /**
